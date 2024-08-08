@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Hospital_Management_SystemModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Hospital_Management_SystemModelStoreContainer">
+    <EntitySet Name="Bills" EntityType="Hospital_Management_SystemModel.Store.Bills" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Doctors" EntityType="Hospital_Management_SystemModel.Store.Doctors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Patients" EntityType="Hospital_Management_SystemModel.Store.Patients" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Payments" EntityType="Hospital_Management_SystemModel.Store.Payments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Registrations" EntityType="Hospital_Management_SystemModel.Store.Registrations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Rooms" EntityType="Hospital_Management_SystemModel.Store.Rooms" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Room_Assignment" EntityType="Hospital_Management_SystemModel.Store.Room_Assignment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Billings" EntityType="Hospital_Management_SystemModel.Store.Billings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PaymentBils" EntityType="Hospital_Management_SystemModel.Store.PaymentBils" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Reports" EntityType="Hospital_Management_SystemModel.Store.Reports" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__Payment__Patient__1CBC4616" Association="Hospital_Management_SystemModel.Store.FK__Payment__Patient__1CBC4616">
+      <End Role="Bill" EntitySet="Bills" />
+      <End Role="Payment" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bill_Doctor" Association="Hospital_Management_SystemModel.Store.FK_Bill_Doctor">
+      <End Role="Doctor" EntitySet="Doctors" />
+      <End Role="Bill" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bill_Patient" Association="Hospital_Management_SystemModel.Store.FK_Bill_Patient">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="Bill" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bill_Room" Association="Hospital_Management_SystemModel.Store.FK_Bill_Room">
+      <End Role="Room" EntitySet="Rooms" />
+      <End Role="Bill" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Room_Assignment_Doctor" Association="Hospital_Management_SystemModel.Store.FK_Room_Assignment_Doctor">
+      <End Role="Doctor" EntitySet="Doctors" />
+      <End Role="Room_Assignment" EntitySet="Room_Assignment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Room_Assignment_Room" Association="Hospital_Management_SystemModel.Store.FK_Room_Assignment_Room">
+      <End Role="Room" EntitySet="Rooms" />
+      <End Role="Room_Assignment" EntitySet="Room_Assignment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PaymentBi__Patie__0A688BB1" Association="Hospital_Management_SystemModel.Store.FK__PaymentBi__Patie__0A688BB1">
+      <End Role="Billing" EntitySet="Billings" />
+      <End Role="PaymentBil" EntitySet="PaymentBils" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Report_Patient" Association="Hospital_Management_SystemModel.Store.FK_Report_Patient">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="Report" EntitySet="Reports" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Bills">
+    <Key>
+      <PropertyRef Name="Patient_Billid" />
+    </Key>
+    <Property Name="Patient_Billid" Type="int" Nullable="false" />
+    <Property Name="Patient_Id" Type="int" Nullable="true" />
+    <Property Name="Room_id" Type="int" Nullable="true" />
+    <Property Name="Doctor_id" Type="int" Nullable="true" />
+    <Property Name="Assignment_no" Type="int" Nullable="true" />
+    <Property Name="Bill_Date" Type="datetime" Nullable="true" />
+    <Property Name="Room_Bill" Type="int" Nullable="true" />
+    <Property Name="Doctor_Bill" Type="int" Nullable="true" />
+    <Property Name="Medicine_Bill" Type="int" Nullable="true" />
+    <Property Name="Total_Bill" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Doctors">
+    <Key>
+      <PropertyRef Name="Doctor_Id" />
+    </Key>
+    <Property Name="Doctor_Id" Type="int" Nullable="false" />
+    <Property Name="Doctor_Name" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Contact_No" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="Speciliazation" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Charges_Per_Day" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Patients">
+    <Key>
+      <PropertyRef Name="Patient_Id" />
+    </Key>
+    <Property Name="Patient_Id" Type="int" Nullable="false" />
+    <Property Name="Patient_Name" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Gender" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Patient_Address" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="Contact_No" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Guardian_Name" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Emergency_contact_no" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="Nature_Of_Disease" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="Patient_Condition" Type="varchar" Nullable="true" MaxLength="250" />
+    <Property Name="Doctor_Name" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Room_Type" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Payments">
+    <Key>
+      <PropertyRef Name="PaymentId" />
+    </Key>
+    <Property Name="PaymentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Patient_Billid" Type="int" Nullable="true" />
+    <Property Name="PatientName" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Gender" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Address" Type="varchar" Nullable="false" MaxLength="40" />
+    <Property Name="ContactNumber" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Room_Bill" Type="int" Nullable="false" />
+    <Property Name="Doctor_Bill" Type="int" Nullable="false" />
+    <Property Name="Medicine_Bill" Type="int" Nullable="false" />
+    <Property Name="Total_Bill" Type="int" Nullable="false" />
+    <Property Name="Status" Type="varchar" Nullable="true" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Registrations">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Password" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Email" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Rooms">
+    <Key>
+      <PropertyRef Name="Room_id" />
+    </Key>
+    <Property Name="Room_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Room_Type" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="No_Of_Rooms" Type="int" Nullable="true" />
+    <Property Name="Rates_Per_Day" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Room_Assignment">
+    <Key>
+      <PropertyRef Name="Assignment_no" />
+    </Key>
+    <Property Name="Assignment_no" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Room_Id" Type="int" Nullable="true" />
+    <Property Name="Patient_Id" Type="int" Nullable="true" />
+    <Property Name="Admission_Date" Type="datetime" Nullable="true" />
+    <Property Name="Doctor_Name" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Patient_Condition" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Doctor_Id" Type="int" Nullable="true" />
+    <Property Name="Patient_Name" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Room_Type" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Billings">
+    <Key>
+      <PropertyRef Name="Bill_Id" />
+    </Key>
+    <Property Name="Bill_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Rid" Type="int" Nullable="false" />
+    <Property Name="Did" Type="int" Nullable="false" />
+    <Property Name="Pid" Type="int" Nullable="false" />
+    <Property Name="Doctor_Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Patient_Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Room_Type" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Bill_Date" Type="datetime" Nullable="false" />
+    <Property Name="Room_Bill" Type="int" Nullable="false" />
+    <Property Name="Doctor_Bill" Type="int" Nullable="false" />
+    <Property Name="Medicine_Bill" Type="int" Nullable="false" />
+    <Property Name="Total_Bill" Type="int" Nullable="false" />
+    <Property Name="Aid" Type="int" Nullable="false" />
+    <Property Name="Status" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PaymentBils">
+    <Key>
+      <PropertyRef Name="Payment_Id" />
+    </Key>
+    <Property Name="Payment_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Patient_Bill_Id" Type="int" Nullable="true" />
+    <Property Name="Patient_Name" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Doctor_Name" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="Room_Bill" Type="int" Nullable="true" />
+    <Property Name="Doctor_Bill" Type="int" Nullable="true" />
+    <Property Name="Medicine_Bill" Type="int" Nullable="true" />
+    <Property Name="Total_Bill" Type="int" Nullable="true" />
+    <Property Name="Status" Type="varchar" Nullable="true" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Reports">
+    <Key>
+      <PropertyRef Name="ReportId" />
+    </Key>
+    <Property Name="ReportId" Type="int" Nullable="false" />
+    <Property Name="PaymentId" Type="int" Nullable="false" />
+    <Property Name="PatientName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="PatientAddress" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ContactNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Disease" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="PatientCondition" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="AdmissionDate" Type="datetime" Nullable="false" />
+    <Property Name="DoctorName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DischargeDate" Type="datetime" Nullable="false" />
+    <Property Name="Patient_Id" Type="int" Nullable="false" />
+    <Property Name="Patient_Billid" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Payment__Patient__1CBC4616">
+    <End Role="Bill" Type="Hospital_Management_SystemModel.Store.Bills" Multiplicity="0..1" />
+    <End Role="Payment" Type="Hospital_Management_SystemModel.Store.Payments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bill">
+        <PropertyRef Name="Patient_Billid" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="Patient_Billid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bill_Doctor">
+    <End Role="Doctor" Type="Hospital_Management_SystemModel.Store.Doctors" Multiplicity="0..1" />
+    <End Role="Bill" Type="Hospital_Management_SystemModel.Store.Bills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="Doctor_Id" />
+      </Principal>
+      <Dependent Role="Bill">
+        <PropertyRef Name="Doctor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bill_Patient">
+    <End Role="Patient" Type="Hospital_Management_SystemModel.Store.Patients" Multiplicity="0..1" />
+    <End Role="Bill" Type="Hospital_Management_SystemModel.Store.Bills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Patient_Id" />
+      </Principal>
+      <Dependent Role="Bill">
+        <PropertyRef Name="Patient_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bill_Room">
+    <End Role="Room" Type="Hospital_Management_SystemModel.Store.Rooms" Multiplicity="0..1" />
+    <End Role="Bill" Type="Hospital_Management_SystemModel.Store.Bills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="Room_id" />
+      </Principal>
+      <Dependent Role="Bill">
+        <PropertyRef Name="Room_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Room_Assignment_Doctor">
+    <End Role="Doctor" Type="Hospital_Management_SystemModel.Store.Doctors" Multiplicity="0..1" />
+    <End Role="Room_Assignment" Type="Hospital_Management_SystemModel.Store.Room_Assignment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="Doctor_Id" />
+      </Principal>
+      <Dependent Role="Room_Assignment">
+        <PropertyRef Name="Doctor_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Room_Assignment_Room">
+    <End Role="Room" Type="Hospital_Management_SystemModel.Store.Rooms" Multiplicity="0..1" />
+    <End Role="Room_Assignment" Type="Hospital_Management_SystemModel.Store.Room_Assignment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="Room_id" />
+      </Principal>
+      <Dependent Role="Room_Assignment">
+        <PropertyRef Name="Room_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PaymentBi__Patie__0A688BB1">
+    <End Role="Billing" Type="Hospital_Management_SystemModel.Store.Billings" Multiplicity="0..1" />
+    <End Role="PaymentBil" Type="Hospital_Management_SystemModel.Store.PaymentBils" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Billing">
+        <PropertyRef Name="Bill_Id" />
+      </Principal>
+      <Dependent Role="PaymentBil">
+        <PropertyRef Name="Patient_Bill_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Report_Patient">
+    <End Role="Patient" Type="Hospital_Management_SystemModel.Store.Patients" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Report" Type="Hospital_Management_SystemModel.Store.Reports" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="Patient_Id" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="Patient_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

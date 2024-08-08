@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7a1bfb514b8b446ea919287522bf77c2" Name="Diagram1">
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.Billing" Width="1.5" PointX="7.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.Bill" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.Doctor" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.Patient" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.PaymentBil" Width="1.5" PointX="10" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.Payment" Width="1.5" PointX="5.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.Registration" Width="1.5" PointX="5.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.Report" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.Room_Assignment" Width="1.5" PointX="6" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital_Management_SystemModel.Room" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <AssociationConnector Association="Hospital_Management_SystemModel.FK__PaymentBi__Patie__0A688BB1" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital_Management_SystemModel.FK__Payment__Patient__1CBC4616" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital_Management_SystemModel.FK_Bill_Doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital_Management_SystemModel.FK_Bill_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital_Management_SystemModel.FK_Bill_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital_Management_SystemModel.FK_Room_Assignment_Doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital_Management_SystemModel.FK_Report_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital_Management_SystemModel.FK_Room_Assignment_Room" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

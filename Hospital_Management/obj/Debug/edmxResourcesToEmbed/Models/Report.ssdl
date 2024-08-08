@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Hospital_Management_SystemModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="ReportId" />
+    </Key>
+    <Property Name="ReportId" Type="int" Nullable="false" />
+    <Property Name="PaymentId" Type="int" Nullable="false" />
+    <Property Name="PatientName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PatientAddress" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ContactNo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Disease" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PatientCondition" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdmissionDate" Type="datetime" Nullable="false" />
+    <Property Name="DoctorName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DischargeDate" Type="datetime" Nullable="false" />
+    <Property Name="Patient_Id" Type="int" Nullable="false" />
+    <Property Name="Patient_Billid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Hospital_Management_SystemModel1StoreContainer">
+    <EntitySet Name="Report" EntityType="Self.Report" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

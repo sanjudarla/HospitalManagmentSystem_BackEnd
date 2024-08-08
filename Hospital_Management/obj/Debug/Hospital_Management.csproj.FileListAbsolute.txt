@@ -1,0 +1,429 @@
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Hospital_Management.dll.config
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Hospital_Management.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Hospital_Management.pdb
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\csc.exe
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\csc.exe.config
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\csc.rsp
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\csi.exe
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\csi.exe.config
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\csi.rsp
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.AppContext.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Console.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.Compression.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Net.Http.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Net.Sockets.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.ValueTuple.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\vbc.exe
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\vbc.exe.config
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\vbc.rsp
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\EntityFramework.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Net.Http.Formatting.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Web.Cors.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Web.Http.Cors.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Web.Http.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Web.Http.WebHost.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\EntityFramework.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Web.Http.Cors.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Net.Http.Formatting.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Web.Http.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Web.Http.WebHost.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.pdb
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Azure.Core.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Azure.Identity.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Buffers.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Data.SqlClient.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Memory.Data.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Memory.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Numerics.Vectors.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Security.AccessControl.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Security.Permissions.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Security.Principal.Windows.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Text.Encodings.Web.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Text.Json.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.ValueTuple.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Azure.Core.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Azure.Identity.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.Data.SqlClient.pdb
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.Data.SqlClient.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Buffers.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Data.SqlClient.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Memory.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Memory.Data.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Numerics.Vectors.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Security.AccessControl.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Security.Cryptography.ProtectedData.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Security.Permissions.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Security.Principal.Windows.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Text.Encodings.Web.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Text.Json.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\System.ValueTuple.xml
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\LENOVO\source\repos\Hospital_Management\Hospital_Management\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\Hospital_Management.dll.config
+E:\Hospital_Management\Hospital_Management\bin\Hospital_Management.dll
+E:\Hospital_Management\Hospital_Management\bin\Hospital_Management.pdb
+E:\Hospital_Management\Hospital_Management\bin\roslyn\csc.exe
+E:\Hospital_Management\Hospital_Management\bin\roslyn\csc.exe.config
+E:\Hospital_Management\Hospital_Management\bin\roslyn\csc.rsp
+E:\Hospital_Management\Hospital_Management\bin\roslyn\csi.exe
+E:\Hospital_Management\Hospital_Management\bin\roslyn\csi.exe.config
+E:\Hospital_Management\Hospital_Management\bin\roslyn\csi.rsp
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.AppContext.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Collections.Immutable.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Console.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Globalization.Calendars.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.Compression.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.FileSystem.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Net.Http.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Net.Sockets.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Reflection.Metadata.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.ValueTuple.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.XPath.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Hospital_Management\Hospital_Management\bin\roslyn\vbc.exe
+E:\Hospital_Management\Hospital_Management\bin\roslyn\vbc.exe.config
+E:\Hospital_Management\Hospital_Management\bin\roslyn\vbc.rsp
+E:\Hospital_Management\Hospital_Management\bin\roslyn\VBCSCompiler.exe
+E:\Hospital_Management\Hospital_Management\bin\roslyn\VBCSCompiler.exe.config
+E:\Hospital_Management\Hospital_Management\bin\Azure.Core.dll
+E:\Hospital_Management\Hospital_Management\bin\Azure.Identity.dll
+E:\Hospital_Management\Hospital_Management\bin\EntityFramework.dll
+E:\Hospital_Management\Hospital_Management\bin\EntityFramework.SqlServer.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.Data.SqlClient.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Abstractions.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Logging.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Tokens.dll
+E:\Hospital_Management\Hospital_Management\bin\Newtonsoft.Json.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Buffers.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Configuration.ConfigurationManager.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Data.SqlClient.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Hospital_Management\Hospital_Management\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Memory.Data.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Memory.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Net.Http.Formatting.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Numerics.Vectors.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Security.AccessControl.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Security.Cryptography.ProtectedData.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Security.Permissions.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Security.Principal.Windows.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Text.Encodings.Web.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Text.Json.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Threading.Tasks.Extensions.dll
+E:\Hospital_Management\Hospital_Management\bin\System.ValueTuple.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Web.Cors.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Web.Http.Cors.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Web.Http.dll
+E:\Hospital_Management\Hospital_Management\bin\System.Web.Http.WebHost.dll
+E:\Hospital_Management\Hospital_Management\bin\Azure.Core.xml
+E:\Hospital_Management\Hospital_Management\bin\Azure.Identity.xml
+E:\Hospital_Management\Hospital_Management\bin\EntityFramework.xml
+E:\Hospital_Management\Hospital_Management\bin\EntityFramework.SqlServer.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.Data.SqlClient.pdb
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.Data.SqlClient.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Abstractions.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Logging.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Tokens.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Buffers.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Configuration.ConfigurationManager.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Data.SqlClient.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Hospital_Management\Hospital_Management\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Memory.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Memory.Data.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Numerics.Vectors.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Security.AccessControl.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Security.Cryptography.ProtectedData.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Security.Permissions.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Security.Principal.Windows.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Text.Encodings.Web.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Text.Json.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Threading.Tasks.Extensions.xml
+E:\Hospital_Management\Hospital_Management\bin\System.ValueTuple.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Web.Http.Cors.xml
+E:\Hospital_Management\Hospital_Management\bin\Newtonsoft.Json.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Net.Http.Formatting.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Web.Http.xml
+E:\Hospital_Management\Hospital_Management\bin\System.Web.Http.WebHost.xml
+E:\Hospital_Management\Hospital_Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Hospital_Management\Hospital_Management\bin\de\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\es\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\fr\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\it\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\ja\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\ko\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\ru\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.AssemblyReference.cache
+E:\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.CoreCompileInputs.cache
+E:\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.CopyComplete
+E:\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.dll
+E:\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.pdb
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Hospital_Management.dll.config
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Hospital_Management.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Hospital_Management.pdb
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\csc.exe
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\csc.exe.config
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\csc.rsp
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\csi.exe
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\csi.exe.config
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\csi.rsp
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.AppContext.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Console.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.Compression.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Net.Http.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Net.Sockets.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.ValueTuple.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\vbc.exe
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\vbc.exe.config
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\vbc.rsp
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\VBCSCompiler.exe
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Azure.Core.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Azure.Identity.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\EntityFramework.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\EntityFramework.SqlServer.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.Data.SqlClient.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Newtonsoft.Json.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Buffers.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Data.SqlClient.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Memory.Data.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Memory.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Net.Http.Formatting.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Numerics.Vectors.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Security.AccessControl.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Security.Permissions.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Security.Principal.Windows.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Text.Encodings.Web.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Text.Json.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.ValueTuple.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Web.Cors.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Web.Http.Cors.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Web.Http.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Web.Http.WebHost.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Azure.Core.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Azure.Identity.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\EntityFramework.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\EntityFramework.SqlServer.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.Data.SqlClient.pdb
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.Data.SqlClient.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Buffers.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Data.SqlClient.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Memory.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Memory.Data.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Numerics.Vectors.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Security.AccessControl.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Security.Cryptography.ProtectedData.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Security.Permissions.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Security.Principal.Windows.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Text.Encodings.Web.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Text.Json.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.ValueTuple.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Web.Http.Cors.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Newtonsoft.Json.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Net.Http.Formatting.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Web.Http.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\System.Web.Http.WebHost.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.AssemblyReference.cache
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.CoreCompileInputs.cache
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.CopyComplete
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.dll
+C:\Users\darla\Documents\Capgemini\IDigital 12\Hospital_Management\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.pdb

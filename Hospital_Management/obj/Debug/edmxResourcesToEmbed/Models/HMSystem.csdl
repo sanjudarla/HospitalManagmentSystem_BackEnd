@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Hospital_Management_SystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Billing">
+    <Key>
+      <PropertyRef Name="Bill_Id" />
+    </Key>
+    <Property Name="Bill_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Rid" Type="Int32" Nullable="false" />
+    <Property Name="Did" Type="Int32" Nullable="false" />
+    <Property Name="Pid" Type="Int32" Nullable="false" />
+    <Property Name="Doctor_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Patient_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Room_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Bill_Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Room_Bill" Type="Int32" Nullable="false" />
+    <Property Name="Doctor_Bill" Type="Int32" Nullable="false" />
+    <Property Name="Medicine_Bill" Type="Int32" Nullable="false" />
+    <Property Name="Total_Bill" Type="Int32" Nullable="false" />
+    <Property Name="Aid" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PaymentBils" Relationship="Self.FK__PaymentBi__Patie__0A688BB1" FromRole="Billings" ToRole="PaymentBils" />
+  </EntityType>
+  <EntityType Name="Bill">
+    <Key>
+      <PropertyRef Name="Patient_Billid" />
+    </Key>
+    <Property Name="Patient_Billid" Type="Int32" Nullable="false" />
+    <Property Name="Patient_Id" Type="Int32" />
+    <Property Name="Room_id" Type="Int32" />
+    <Property Name="Doctor_id" Type="Int32" />
+    <Property Name="Assignment_no" Type="Int32" />
+    <Property Name="Bill_Date" Type="DateTime" Precision="3" />
+    <Property Name="Room_Bill" Type="Int32" />
+    <Property Name="Doctor_Bill" Type="Int32" />
+    <Property Name="Medicine_Bill" Type="Int32" />
+    <Property Name="Total_Bill" Type="Int32" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK__Payment__Patient__1CBC4616" FromRole="Bills" ToRole="Payments" />
+    <NavigationProperty Name="Doctor" Relationship="Self.FK_Bill_Doctor" FromRole="Bills" ToRole="Doctors" />
+    <NavigationProperty Name="Patient" Relationship="Self.FK_Bill_Patient" FromRole="Bills" ToRole="Patients" />
+    <NavigationProperty Name="Room" Relationship="Self.FK_Bill_Room" FromRole="Bills" ToRole="Rooms" />
+  </EntityType>
+  <EntityType Name="Doctor">
+    <Key>
+      <PropertyRef Name="Doctor_Id" />
+    </Key>
+    <Property Name="Doctor_Id" Type="Int32" Nullable="false" />
+    <Property Name="Doctor_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contact_No" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Speciliazation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Charges_Per_Day" Type="Int32" />
+    <NavigationProperty Name="Bills" Relationship="Self.FK_Bill_Doctor" FromRole="Doctors" ToRole="Bills" />
+    <NavigationProperty Name="Room_Assignment" Relationship="Self.FK_Room_Assignment_Doctor" FromRole="Doctors" ToRole="Room_Assignment" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="Patient_Id" />
+    </Key>
+    <Property Name="Patient_Id" Type="Int32" Nullable="false" />
+    <Property Name="Patient_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Patient_Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Contact_No" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Guardian_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Emergency_contact_no" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Nature_Of_Disease" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Patient_Condition" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Doctor_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Room_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bills" Relationship="Self.FK_Bill_Patient" FromRole="Patients" ToRole="Bills" />
+    <NavigationProperty Name="Reports" Relationship="Self.FK_Report_Patient" FromRole="Patients" ToRole="Reports" />
+  </EntityType>
+  <EntityType Name="PaymentBil">
+    <Key>
+      <PropertyRef Name="Payment_Id" />
+    </Key>
+    <Property Name="Payment_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Patient_Bill_Id" Type="Int32" />
+    <Property Name="Patient_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Doctor_Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Room_Bill" Type="Int32" />
+    <Property Name="Doctor_Bill" Type="Int32" />
+    <Property Name="Medicine_Bill" Type="Int32" />
+    <Property Name="Total_Bill" Type="Int32" />
+    <Property Name="Status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Billing" Relationship="Self.FK__PaymentBi__Patie__0A688BB1" FromRole="PaymentBils" ToRole="Billings" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentId" />
+    </Key>
+    <Property Name="PaymentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Patient_Billid" Type="Int32" />
+    <Property Name="PatientName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ContactNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Room_Bill" Type="Int32" Nullable="false" />
+    <Property Name="Doctor_Bill" Type="Int32" Nullable="false" />
+    <Property Name="Medicine_Bill" Type="Int32" Nullable="false" />
+    <Property Name="Total_Bill" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bill" Relationship="Self.FK__Payment__Patient__1CBC4616" FromRole="Payments" ToRole="Bills" />
+  </EntityType>
+  <EntityType Name="Registration">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="ReportId" />
+    </Key>
+    <Property Name="ReportId" Type="Int32" Nullable="false" />
+    <Property Name="PaymentId" Type="Int32" Nullable="false" />
+    <Property Name="PatientName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PatientAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ContactNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Disease" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PatientCondition" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdmissionDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DoctorName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DischargeDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Patient_Id" Type="Int32" Nullable="false" />
+    <Property Name="Patient_Billid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Patient" Relationship="Self.FK_Report_Patient" FromRole="Reports" ToRole="Patients" />
+  </EntityType>
+  <EntityType Name="Room_Assignment">
+    <Key>
+      <PropertyRef Name="Assignment_no" />
+    </Key>
+    <Property Name="Assignment_no" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Room_Id" Type="Int32" />
+    <Property Name="Patient_Id" Type="Int32" />
+    <Property Name="Admission_Date" Type="DateTime" Precision="3" />
+    <Property Name="Doctor_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Patient_Condition" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Doctor_Id" Type="Int32" />
+    <Property Name="Patient_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Room_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Doctor" Relationship="Self.FK_Room_Assignment_Doctor" FromRole="Room_Assignment" ToRole="Doctors" />
+    <NavigationProperty Name="Room" Relationship="Self.FK_Room_Assignment_Room" FromRole="Room_Assignment" ToRole="Rooms" />
+  </EntityType>
+  <EntityType Name="Room">
+    <Key>
+      <PropertyRef Name="Room_id" />
+    </Key>
+    <Property Name="Room_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Room_Type" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="No_Of_Rooms" Type="Int32" />
+    <Property Name="Rates_Per_Day" Type="Int32" />
+    <NavigationProperty Name="Bills" Relationship="Self.FK_Bill_Room" FromRole="Rooms" ToRole="Bills" />
+    <NavigationProperty Name="Room_Assignment" Relationship="Self.FK_Room_Assignment_Room" FromRole="Rooms" ToRole="Room_Assignment" />
+  </EntityType>
+  <Association Name="FK__PaymentBi__Patie__0A688BB1">
+    <End Role="Billings" Type="Self.Billing" Multiplicity="0..1" />
+    <End Role="PaymentBils" Type="Self.PaymentBil" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Billings">
+        <PropertyRef Name="Bill_Id" />
+      </Principal>
+      <Dependent Role="PaymentBils">
+        <PropertyRef Name="Patient_Bill_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payment__Patient__1CBC4616">
+    <End Role="Bills" Type="Self.Bill" Multiplicity="0..1" />
+    <End Role="Payments" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bills">
+        <PropertyRef Name="Patient_Billid" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="Patient_Billid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bill_Doctor">
+    <End Role="Doctors" Type="Self.Doctor" Multiplicity="0..1" />
+    <End Role="Bills" Type="Self.Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctors">
+        <PropertyRef Name="Doctor_Id" />
+      </Principal>
+      <Dependent Role="Bills">
+        <PropertyRef Name="Doctor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bill_Patient">
+    <End Role="Patients" Type="Self.Patient" Multiplicity="0..1" />
+    <End Role="Bills" Type="Self.Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patients">
+        <PropertyRef Name="Patient_Id" />
+      </Principal>
+      <Dependent Role="Bills">
+        <PropertyRef Name="Patient_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bill_Room">
+    <End Role="Rooms" Type="Self.Room" Multiplicity="0..1" />
+    <End Role="Bills" Type="Self.Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rooms">
+        <PropertyRef Name="Room_id" />
+      </Principal>
+      <Dependent Role="Bills">
+        <PropertyRef Name="Room_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Room_Assignment_Doctor">
+    <End Role="Doctors" Type="Self.Doctor" Multiplicity="0..1" />
+    <End Role="Room_Assignment" Type="Self.Room_Assignment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctors">
+        <PropertyRef Name="Doctor_Id" />
+      </Principal>
+      <Dependent Role="Room_Assignment">
+        <PropertyRef Name="Doctor_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Report_Patient">
+    <End Role="Patients" Type="Self.Patient" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Reports" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patients">
+        <PropertyRef Name="Patient_Id" />
+      </Principal>
+      <Dependent Role="Reports">
+        <PropertyRef Name="Patient_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Room_Assignment_Room">
+    <End Role="Rooms" Type="Self.Room" Multiplicity="0..1" />
+    <End Role="Room_Assignment" Type="Self.Room_Assignment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rooms">
+        <PropertyRef Name="Room_id" />
+      </Principal>
+      <Dependent Role="Room_Assignment">
+        <PropertyRef Name="Room_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Hospital_Management_SystemEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Billings" EntityType="Self.Billing" />
+    <EntitySet Name="Bills" EntityType="Self.Bill" />
+    <EntitySet Name="Doctors" EntityType="Self.Doctor" />
+    <EntitySet Name="Patients" EntityType="Self.Patient" />
+    <EntitySet Name="PaymentBils" EntityType="Self.PaymentBil" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Registrations" EntityType="Self.Registration" />
+    <EntitySet Name="Reports" EntityType="Self.Report" />
+    <EntitySet Name="Room_Assignment" EntityType="Self.Room_Assignment" />
+    <EntitySet Name="Rooms" EntityType="Self.Room" />
+    <AssociationSet Name="FK__PaymentBi__Patie__0A688BB1" Association="Self.FK__PaymentBi__Patie__0A688BB1">
+      <End Role="Billings" EntitySet="Billings" />
+      <End Role="PaymentBils" EntitySet="PaymentBils" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payment__Patient__1CBC4616" Association="Self.FK__Payment__Patient__1CBC4616">
+      <End Role="Bills" EntitySet="Bills" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bill_Doctor" Association="Self.FK_Bill_Doctor">
+      <End Role="Doctors" EntitySet="Doctors" />
+      <End Role="Bills" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bill_Patient" Association="Self.FK_Bill_Patient">
+      <End Role="Patients" EntitySet="Patients" />
+      <End Role="Bills" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bill_Room" Association="Self.FK_Bill_Room">
+      <End Role="Rooms" EntitySet="Rooms" />
+      <End Role="Bills" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Room_Assignment_Doctor" Association="Self.FK_Room_Assignment_Doctor">
+      <End Role="Doctors" EntitySet="Doctors" />
+      <End Role="Room_Assignment" EntitySet="Room_Assignment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Report_Patient" Association="Self.FK_Report_Patient">
+      <End Role="Patients" EntitySet="Patients" />
+      <End Role="Reports" EntitySet="Reports" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Room_Assignment_Room" Association="Self.FK_Room_Assignment_Room">
+      <End Role="Rooms" EntitySet="Rooms" />
+      <End Role="Room_Assignment" EntitySet="Room_Assignment" />
+    </AssociationSet>
+    <FunctionImport Name="DeletePayment">
+      <Parameter Name="Payment_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>
